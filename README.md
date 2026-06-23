@@ -149,6 +149,8 @@ All 34 test examples were parseable (0 unparseable responses).
 | **True: hot_take** | 0 | 12 | 0 |
 | **True: reaction** | 0 | 1 | 10 |
 
+![Confusion Matrix](confusion_matrix.png)
+
 The model is nearly perfect. The single error is one `reaction` post misclassified as `hot_take`.
 
 ---
